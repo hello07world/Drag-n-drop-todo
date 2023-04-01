@@ -1,0 +1,59 @@
+input {
+    border: none;
+    outline: none;
+    min-height: 70px;
+    width: 100%;
+}
+
+.todo_btn,
+.todo_save_btn {
+    font-family: monospace;
+    background: black;
+    border: none;
+    margin-bottom: 27px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.todo_btn:hover,
+.todo_save_btn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
+/* todo div */
+.todo {
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.task_col {
+    border: 1px solid black;
+}
+
+.task_col p {
+    padding: 4px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: monospace;
+    text-align: center;
+    word-break: break-all;
+}
+
+@media (max-width:600px) {
+
+    .task_col p {
+        font-size: 12px;
+    }
+
+    .todo {
+        font-size: 15px;
+    }
+
+}
